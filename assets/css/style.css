@@ -1,0 +1,210 @@
+.slider-detail {
+    padding-top: 0px;
+}
+
+.slider-detail .carousel-cover {
+    /* background-color: rgba(0, 173, 162, 0.53); */
+    position: absolute;
+    left: 0px;
+    width: 40%;
+    top: 50px;
+    height: 100%;
+    background-color: rgba(0, 173, 162, 0.53);
+    position: absolute;
+    left: -30%;
+    width: 80%;
+    top: -150px;
+    height: 140%;
+    transform: rotate(15deg);
+}
+
+@media screen and (max-width: 1086px) {
+    .slider-detail .carousel-cover {
+        top: -131px;
+        left: -24%;
+        transform: rotate(12deg);
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .slider-detail .carousel-cover {
+        transform: rotate(7deg);
+        top: -100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slider-detail .carousel-cover {
+        display: none;
+    }
+}
+
+.slider-detail .carousel-caption {
+    text-align: left;
+    top: 70px;
+    left: 10%;
+    max-width: 40%;
+}
+
+.slider-detail .carousel-caption h5 {
+    font-size: 40px;
+}
+
+.slider-detail .carousel-caption p {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.slider-detail .carousel-caption .vbh {
+    margin: 0px;
+}
+
+@media screen and (max-width: 1090px) {
+    .slider-detail .carousel-caption {
+        top: 30px;
+    }
+    .slider-detail .carousel-caption h5 {
+        font-size: 28px;
+    }
+    .slider-detail .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .slider-detail .carousel-caption p {
+        margin-bottom: 10px;
+    }
+}
+
+.slider-detail .carousel-indicators {
+    left: -70%;
+}
+
+.slider-detail .btn-default {
+    background-color: #FFF;
+    color: #444;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 792px) {
+    .slider-detail .btn-default {
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+
+/* ===================================== Key Features CSS ================================== */
+
+.key-features .kvxol {
+    padding: 0px;
+}
+
+.key-features .single-key {
+    background-color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.key-features .single-key i {
+    background-color: #FFF;
+    padding: 20px;
+    font-size: 42px;
+    color: #00ab9f;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.key-features .single-key p {
+    font-family: "mouse-300", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.key-features .ky-1 {
+    background-color: #03509e;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+.key-features .ky-2 {
+    background-color: #0085bc;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+.department {
+    padding: 80px 50px;
+    background-color: #FFF;
+}
+
+@media screen and (max-width: 940px) {
+    .department {
+        padding: 50px 10px;
+    }
+}
+
+.contact-rooo {
+    padding: 80px 50px;
+    background-color: #FFF;
+}
+
+@media screen and (max-width: 940px) {
+    .contact-rooo {
+        padding: 50px 10px;
+    }
+}
+
+
+/*====================================== About Us Style ====================================*/
+
+.about-us .abut-yoiu {
+    padding: 50px;
+    background-color: #FFF;
+}
+
+
+/* ===================================== Gallery Style  ================================== */
+
+.gallery-filter {
+    width: 100%;
+    text-align: center;
+}
+
+.gallery-filter .btn {
+    background-color: #FFF;
+}
+
+.gallery {
+    padding: 80px 50px;
+    background-color: #FAFAFA;
+}
+
+@media screen and (max-width: 940px) {
+    .gallery {
+        padding: 50px 10px;
+    }
+}
+
+.gallery-title {
+    font-size: 36px;
+    color: #00ab9f;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #00ab9f;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .left-side {
+        width: 100%;
+    }
+    .right-side {
+        width: 100%;
+    }
+}
+
+.right-side {
+    width: 100%;
+}
+
+.left-side a {
+    transition: 0.5s ease;
+}
+
+.col {
+    transition: 0.9s;
+}
+
+.background {
+    position: center;
+    background: cover;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4f5e66;
+    color: white;
+    /* position: fixed; */
+    /* width: 100%; */
+    z-index: 100;
+}
+
+nav h1 {
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav a:hover {
+    color: orange;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-image: linear-gradient( rgba(20, 19, 19, 0.787), rgba(71, 68, 66, 0.612)), url(image/ps1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.section1 p,
+button a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20%;
+}
+
+.section1 h2 {
+    color: white;
+    margin-top: 60px;
+    box-shadow: 0 0 10px goldenrod;
+}
+
+.container .col {
+    background-color: rgb(234, 122, 18);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 30px;
+}
+
+.section2 h4 {
+    padding-left: 40px;
+    width: 81%;
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+.section2 img {
+    width: 40px;
+}
+
+.section2 h4 a {
+    margin-top: 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    height: 50vh;
+}
+
+.footer img {
+    padding: 10px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.footer .social {
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+.footer h4 {
+    color: white;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.adimin-signup {
+    width: 60%;
+    margin: 60px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(75, 89, 103);
+}
+
+@media (max-width: 767px) {
+    .fs-3 {
+        width: 100%;
+    }
+    .left-side {
+        width: 100%;
+    }
+    .right-side {
+        width: 100%;
+    }
+}
+
+.right-side {
+    width: 100%;
+}
+
+.right-side {
+    width: 100%;
+}
+
+.gallery_product img {
+    width: 100%;
+    height: 200px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.gallery_product {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery_product img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery_product:hover img {
+    background: linear-gradient(rgba(10, 122, 233, 0.5), rgba(233, 10, 233, 0.5));
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-section iframe {
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adimin-signup h5 {
+    background: linear-gradient(rgb(10, 122, 233), rgb(233, 10, 233));
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.adimin-signup p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.adimin-signup p a {
+    text-decoration: none;
+}
+
+.form-group label {
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.form-group {
+    border: 1px solid blue;
+    width: 90%;
+    margin-left: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.adimin-signup .submit {
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+
+/* the admin dashboard */
+
+.maincontaient {
+    display: flex;
+}
+
+.record1 {
+    margin-top: 60px;
+}
+
+.left-side {
+    background: #718785;
+    width: 20%;
+    color: white;
+}
+
+.left-side a {
+    color: white;
+}
+
+.right-side {
+    width: 80%;
+    min-height: 80vh;
+}
+
+.record1 .doctor-value {
+    background-color: rgb(99, 184, 181);
+    height: 150px;
+    margin: 20px;
+    color: white;
+    border: none;
+}
+
+.doc1 {
+    padding: 100vh;
+}
+
+.record1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.record1 .register-value {
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 20px;
+    color: white;
+    border: none;
+}
+
+.record1 .patient-value {
+    height: 150px;
+    background-color: rgb(233, 170, 53);
+    margin: 20px;
+    color: white;
+    border: none;
+}
+
+.record1 .appointment-value {
+    background-color: rgb(160, 117, 168);
+    margin: 20px;
+    color: white;
+    border: none;
+}
+
+
+/* left menu */
+
+.leftmenu a {
+    padding-top: 10px;
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+}
+
+.left-side h5 {
+    padding-left: 120px;
+}
+
+.left-side h2 {
+    padding-left: 60px;
+}
+
+.profile {
+    margin: 50px 100px 0 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.inrecord {
+    padding: 60px;
+}
+
+.title {
+    background-color: rgb(0, 187, 255);
+    color: white;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutus img {
+    width: 40px;
+}
+
+@media (max-width: 767px) {
+    .left-side {
+        width: 100%;
+    }
+    .right-side {
+        width: 100%;
+    }
+}
+
+.right-side {
+    width: 100%;
+}
